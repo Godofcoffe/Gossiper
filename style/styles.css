@@ -1,35 +1,43 @@
-body {
-  margin: 0
+body{
+  margin: 0;
+  background-color: #242424;
+  color: white;
 }
 
-.resultado-busca {
+#busca {
+  width: 80%;
+  text-align: center;
+  font-size: 30px;
+  border-radius: 20px;
+}
+
+.search-area {
+  text-align: center;
+}
+
+.result-search {
   display: none;
+  margin: 70px 0px 0 0px;
 }
 
-.resultado-busca h3 {
+.result-search h3 {
   margin-left: 50px
 }
 
-.barra-busca {
-  text-align: right;
+.description {
+  margin: 0 0 0 50px;
+}
+
+.top-bar {
   background-color: steelblue;
   padding: 20px;
   border-radius: 5px;
 }
 
-.titulo {
+.title {
   text-align: center;
   text-decoration: underline;
   margin: 100px 0px 0px 0px;
-}
-
-.sites {
-  height: 100%;
-  background-color: #dbf2f2;
-  width: 50%;
-  border-radius: 20px;
-  padding: 0 0 0 10px;
-  border-style: inset;
 }
 
 h2 {
