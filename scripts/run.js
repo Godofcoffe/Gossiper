@@ -1,9 +1,9 @@
 let httpRequest
 const parser = new DOMParser()
 const base_url = "https://haveibeenpwned.com/api/v3/breach/"
-const btn_busca = document.getElementById("busca")
-const event_busca = document.getElementById("busca").addEventListener("change", update)
-const r = document.getElementsByClassName('resultado-busca')[0]
+const btn_busca = document.getElementById("search")
+const event_busca = document.getElementById("search").addEventListener("change", update)
+const r = document.getElementsByClassName('search-area')[0]
 
 if (window.XMLHttpRequest) {
     httpRequest = new XMLHttpRequest()
